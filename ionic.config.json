@@ -1,0 +1,7 @@
+{
+  "name": "fingerprintApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
