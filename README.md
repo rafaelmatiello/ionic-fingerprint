@@ -14,16 +14,17 @@ import { FingerprintAIO } from '@ionic-native/fingerprint-aio/ngx';
 Check code in: src\app\home\home.page.ts
 
 ## Commands to install
-ionic start fingerprintApp sidemenu
-ionic cordova plugin add cordova-plugin-fingerprint-aio
-npm install --save @ionic-native/fingerprint-aio
-cordova plugin add cordova-plugin-fingerprint-aio --variable FACEID_USAGE_DESCRIPTION="Login now...."
+
+* ionic start fingerprintApp sidemenu
+* ionic cordova plugin add cordova-plugin-fingerprint-aio
+* npm install --save @ionic-native/fingerprint-aio
+* cordova plugin add cordova-plugin-fingerprint-aio --variable FACEID_USAGE_DESCRIPTION="Login now...."
 
 
 ## Run
-adb devices
+* adb devices
 
-ionic cordova run android -l
+* ionic cordova run android -l
 
 ## Errors
 
